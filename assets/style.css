@@ -45,12 +45,17 @@ main {
     background-color: lightgreen;
 }
 
+div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    border: 0.5rem solid blue;  
+}
 section {
     display: flex;
     flex-direction: column;
-    border: .25px solid blue;
-    width: 80%
-    
+        
 }
 h2 {
     font-size: 2rem;
@@ -64,12 +69,13 @@ article {
 h3{
     font-size: 1.5rem;
 }
-div {
+article div {
     display: flex;
     flex-direction: column;
     
     border: 0.5rem solid red;
 }
+
 
 h4 {
     font-size: 1rem;
@@ -174,6 +180,11 @@ p{
 .html-screenshot-wide {
     height:6rem;
     width: 10rem;
+}
+
+.syntax-screenshot-vertical {
+    height: 20rem;
+    width: 15rem;
 }
 
 
