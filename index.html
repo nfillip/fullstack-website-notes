@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Caprasimo&family=Cherry+Bomb+One&family=Handjet:wght@300&family=IBM+Plex+Mono:ital@1&family=Ma+Shan+Zheng&family=Ruwudu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+    
+      <h1>Fullstack Basics</h1>
+    
+    
+    
+      <nav >
+        <ul class = "no-bullet">
+          <li>CIL/GIT/GitHub</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>About Me</li>
+        </ul>
+      </nav>
+    
+    </header>
+
+    <main>
+      <!-- <section>
+        <h2>Table of Contents</h2>
+        <p><ol>
+            <li>CIL/GIT/GITHUB</li>
+            <li>HTML</li>
+             <li>CSS
+                <ul>
+                    <li>Editing
+                        <ul>
+                            <li>TExt Editing Examples</li>
+                            <li>Object Editing Examples </li>
+                        </ul>
+                     </li>
+                     <li>Positioning
+                        <ul>
+                            <li>Basic Position: Fexed, Static, Relative, Absolute</li>
+                            <li>Display: Inline, Block, Flex</li>
+                        </ul>
+                    </li>
+                    <li>Selectors and Pseudos
+                        <ul>
+                             <li>Selectors</li>
+                            <li>Pseudos (classes/elements)</li>
+                        </ul>
+                    </li>
+            </ul>
+        </li>
+    </ol></p>
+    </section>
+    <section>
+        CIL/GIT/GITHUB</section>
+        <section>HTML</section> -->
+
+      <section>
+        <h2>CSS</h2>
+
+        <article>
+          <h3>Editing
+            </h3>
+          <div>
+          <ul>
+            <h4>Units of Measurement</h4>
+            <li>px - pixels</li>
+            <li>%</li>
+            <li>em - relative to its parent container</li>
+            <li>rem - relative to html Selectors</li>
+            <li>vh - viewport height</li>
+            <li>vw - viewport width</li>
+            <li>
+                <img src="./assets/html-parent-rem.png" alt="html parent rem combo" class = "html-screenshot-square">
+            </li>
+          </ul>
+          <ul>
+            <h4>Text Editing Examples</h4>
+            <li class = "font-change">font-family: "add name of font" <br/> Can also go to google fonts and copy LINK to html and font-family for CSS. </li>
+            <li class = "line-height"> Line Height - changes the space above/below the font</li>
+            <li class = "font-weight"> Font Weight: can bold</li>
+            <li class = "text-transform">Transform: can uppercase or lowercase stuff</li>
+            <li class = "text-decoration"> text-decoration: can underline, overline, strikethrough, etc</li>
+            <li class = "font-style"> font-style: can make italics</li>
+            <li class = "text-align"> text-align: moves text</li>
+          </ul>
+        
+          <ul>
+            <h4>Object Editing Exmaples</h4>
+            <li class = "colorex"> changes the color of the text in this element </li>
+            <li class = "borderex"> [border: 2rem solid black;] changes the border of the element thickness and color. </li>
+            <li class = "visibility"> [visibility: hidden] -->causes the element to dissapear but doesn't take up space </li>
+            <li class = "margin"> margins around the element. <br/>margin: yaxis xaxis; <br/> margin-top: 5px; </li>
+            <li class = "height-width"> [height: 5px] can change the sizing of the element  </li>
+            <li class = "padding"> [padding: 5px] changes the padding around teh element. Padding is inside the margin. Padding is inside the border.</li>
+            <li > [box-sizing: border-box] This prevents padding and borders from adding to size of a picture if I want a set size on an element/pic</li>
+            <li class = "border"> [border: .25rem solid red] Creates a border around the element</li>
+            <li class = "box-shadow" class = "border"> [box-shadow: 10px 10px 10px 10px gray] creates a shadow effect. xpx ypx dispersal spread color. </li>
+            <li class = "border-radius"> This can make the borders more rounded rather than square. </li>
+            <li> [transform:]
+                <li class = "skew"> [transform: skew(15deg)</li>
+                <li class = "rotate"> [transform: rotate(7deg)</li>
+                <li class = "scale"> [transform: scale(1,2); scales  x, y</li>
+            </li>
+                       
+          </ul>
+          
+        </div>
+        </article>
+
+        <article>
+            <h3>Positioning
+              </h3>
+            <div>
+            
+            <ul>
+            <h4>Basic Position: Fixed, Static, Relative, Abs</h4>
+            <li>BASIC POSITIONING (static, relative, fixed, flex)
+                <ul>
+                    <li>Static:
+                        <ul>
+                            <li>nothing is called --> goes straight to left</li>
+                            <li><img src="./assets/static-ex.png" alt="static" class = "sample-pics"></li>
+                        </ul>
+                    </li>
+                    <li>Relative
+                        <ul>
+                            <li>
+                                <img src="./assets/relative-syntax.png" alt="relative syntax" class = "html-screenshot-wide">
+                                
+                            </li>
+                            <li><img src="./assets/relative-ex.png" alt="relative example" class = "sample-pics"></li>
+                        </ul>
+                    </li>
+                    <li>Fixed:
+                        <ul>
+                            <li>element is removed from the normal doc flow and does not move</li>
+                            <li>top, left: 0; doesn't move from top of screen.</li>
+                        </ul>
+                    </li>
+                    <li>Absolute:
+                        <ul>
+                            <li>removed from normal flow. Final position is relative to the positioned parent or ancestor and is determined by the values of top, bottom, left, right</li>
+                            <li>Parent must be set to RELATIVE</li>
+                            <li>
+                                <img src="./assets/html-absolute.png" alt="absolute syntax" class=".html-screenshot-square">
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <li>static
+                    <li></li>
+                    <li></li>
+                </li>
+            </li>
+            <li>DISPLAYS
+                <ul>
+                    <li><img src="./assets/display-css-screenshot.png" alt="Display"></li>
+                    <li>Block Level
+                        <ul>
+                            <li>Ex.paragraph, unordered lists</li>
+                        </ul>
+                    </li>
+                    <li>Inline
+                        <ul>
+                            <li>img, anchors</li>
+                            
+                        </ul>
+                    </li>
+                    <li>None
+                        <ul>
+                            <li>disappears but still takes space on page</li>
+                        </ul>
+                    </li>
+                    <li>Inline-Flex</li>
+                    <li>Flex</li>
+                </ul>
+            </li>
+            <li>FLEXBOX
+                <ul>
+                    <li>Main Axis & Cross Axis (default main is x axis)</li>
+                    <li>Flex Container Properties
+                        <ul>
+                            <!-- <li>Flex direction
+                                <ul>
+                                <li>specifies the direction of the items inside a container</li>
+                                <li>row, column, row-reverse, column-reverse</li>
+                            </li> -->
+                            <li>Flex Direction
+                                <ul>
+                                    <li>Specifies direction of items in container</li>
+                                    <li>row, column, row-reverse, columnn-reverse</li>
+                                </ul>
+                            </li>
+                            <li>Flex Wrap
+                                <ul>
+                                    <li>Specifies whether the flex items should wrap or not</li>
+                                    <li>[flex-wrap: wrap, nowrap, wrap-reverse]</li>
+                                </ul>
+                            </li>
+                            <li>Flex-Flow
+                                <ul>
+                                    <li>shorthand for direction and wrap in One</li>
+                                    <li>[flex-flow: column wrap;]</li>
+                                </ul>
+                            </li>
+                            <li>Justify-Content
+                                <ul>
+                                    <li>Defines alignment along MAIN axis</li>
+                                    <li>center, flex-end, flex-start, space-around, space-evenly, space-between</li>
+                                </ul>
+                            </li>
+                            <li>Align-Items</li>
+                            <li>Align-Content</li>
+                           
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+                    
+                </ul>
+              </li>
+            </ul>
+          
+            <ul>
+              <h4>Display: Inline, Block ,Flex, None</h4>
+              <li class = "colorex"> changes the color of the text in this element </li>
+              <li class = "borderex"> [border: 2rem solid black;] changes the border of the element thickness and color. </li>
+              <li class = "visibility"> [visibility: hidden] -->causes the element to dissapear but doesn't take up space </li>
+              <li class = "margin"> margins around the element. <br/>margin: yaxis xaxis; <br/> margin-top: 5px; </li>
+              <li class = "height-width"> [height: 5px] can change the sizing of the element  </li>
+              <li class = "padding"> [padding: 5px] changes the padding around teh element. Padding is inside the margin. Padding is inside the border.</li>
+              <li > [box-sizing: border-box] This prevents padding and borders from adding to size of a picture if I want a set size on an element/pic</li>
+              <li class = "border"> [border: .25rem solid red] Creates a border around the element</li>
+              <li class = "box-shadow" class = "border"> [box-shadow: 10px 10px 10px 10px gray] creates a shadow effect. xpx ypx dispersal spread color. </li>
+              <li class = "border-radius"> This can make the borders more rounded rather than square. </li>
+              <li> [transform:]
+                  <li class = "skew"> [transform: skew(15deg)</li>
+                  <li class = "rotate"> [transform: rotate(7deg)</li>
+                  <li class = "scale"> [transform: scale(1,2); scales  x, y</li>
+              </li>
+                         
+            </ul>
+            
+          </div>
+          </article>
+      </section>
+      <aside>
+        My Profile
+      </aside>
+    </main>
+    
+    <footer>Footer</footer>
+  </body>
+</html>

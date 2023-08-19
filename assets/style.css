@@ -1,0 +1,199 @@
+html {
+  font-size: 62.25%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 8rem;
+  background-color: lightseagreen;
+  color: blue;
+}
+
+header h1 {
+  padding-left: 5rem;
+  margin-left: 2rem;
+  font-size: 4rem;
+}
+
+header nav ul {
+  display: flex;
+  flex: 1 1 0;
+  justify-content: space-between;
+  min-width: 30rem;
+  }
+
+  .no-bullet {
+    list-style-type: none;
+  }
+main {
+    display: flex;
+    background-color: lightgreen;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    border: .25px solid blue;
+    width: 80%
+    
+}
+h2 {
+    font-size: 2rem;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    border: 0.25rem solid green;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    
+    border: 0.5rem solid red;
+}
+
+h4 {
+    font-size: 1rem;
+}
+main ul {
+    list-style-type: disc;
+    background-color: yellow;
+    margin-left: rem;
+    border: .25rem solid pink;
+}
+
+main li {
+margin-left: 2rem;
+}
+
+p{
+    background-color: purple;
+    border: 0.25rem solid pink;
+}
+
+.font-change {
+    font-family: "Cherry Bomb One", cursive;
+}
+
+.line-height {
+    line-height: 3.5rem;
+}
+
+.font-weight {
+    font-weight: bolder;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.text-decoration {
+    text-decoration:line-through;
+}
+
+.font-style {
+    font-style: italic;
+}
+.text-align {
+    text-align:center;
+}
+.colorex {
+    color: red;
+}
+
+.margin {
+    margin-left: 4rem;
+}
+.heigth-width {
+    height: 2rem;
+    width: 40rem;
+}
+.padding {
+    padding-left: 5rem;
+}
+.border {
+    border: .25rem solid red;
+}
+.box-shadow {
+    margin-top: 0.8rem;
+    box-shadow: .25rem .25rem 0.25rem 0.25rem gray;
+    
+}
+
+.border-radius {
+    margin-top: 0.8rem;
+    border: .25rem solid red;
+    border-radius: 5rem;
+}
+
+.skew {
+    margin-left:4rem;
+    transform:skew(15deg)
+}
+.scale {
+    margin-left: 4rem;
+    transform: scale(1,2);
+    margin-bottom: 0.8rem;
+    
+}
+.rotate {
+    margin-top: 0.8rem;
+    margin-left: 4rem;
+    transform:rotate(1deg);
+}
+
+.html-screenshot-square {
+    height: 8rem;
+    width: 8rem;
+}
+
+.sample-pics {
+    height: 16rem;
+    width: 25rem;
+}
+
+.html-screenshot-wide {
+    height:6rem;
+    width: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aside {
+    display: flex;
+    height: 100%;
+    background-color: purple;
+    width: 20%;
+}
