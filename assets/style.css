@@ -6,7 +6,7 @@ html {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -19,10 +19,12 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   width: 100%;
-  height: 8rem;
-  background-color: lightseagreen;
+  height: 13vh;
+  background-color: #01579b;
   color: black;
   border: 0.25rem solid black;
+  position: fixed;
+  top: 0rem;
 }
 
 header h1 {
@@ -38,6 +40,7 @@ header nav ul {
   min-width: 30rem;
   margin-right: 2rem;
   margin-bottom: 0.25rem;
+  color: white;
 }
 
 .no-bullet {
@@ -46,40 +49,42 @@ header nav ul {
 nav a {
   text-decoration: none;
   color: white;
+  font-size: 1.5rem;
+  margin: 2rem;
 }
-header nav ul:hover {
-  header nav ul {
-    text-decoration: underline;
-  }
+header a:hover {
+  text-decoration: underline;
+  box-shadow: 0px 0px 10px gray inset;
+  
 }
 
 main {
   display: flex;
-  background-color: lemonchiffon;
+  background-color: #e1f5fe;
   border: 0.25rem solid black;
+  margin-top: 12.5vh;
 }
 
-.main-div-format {
-}
-div {
+main div {
   display: flex;
   flex-direction: column;
   width: 80%;
   height: 100%;
+  
 }
-section {
+main div section {
   display: flex;
   flex-direction: column;
   margin-left: 2rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-h2 {
+main div h2 {
   font-size: 2rem;
   text-decoration: underline;
   font-weight: bolder;
 }
-article {
+main article {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
@@ -87,6 +92,8 @@ article {
 
   padding-bottom: 1rem;
   border: 0.15rem solid black;
+  border-radius: 1rem;
+  margin-right: 2rem;
 }
 
 h3 {
@@ -312,7 +319,72 @@ span[data-info]:hover::after {
 
 aside {
   display: flex;
-  height: 100%;
-  background-color: purple;
+  position: fixed;
+  top: 15vh;
+  right: 0rem;
+  flex-direction: column;
+
+  height: 79vh;
+  background-color: #b3e5fc;
+  border: .15rem solid black;
+  border-radius: 1rem;
   width: 20%;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+aside a:link,
+aside a:visited {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+aside ul {
+  list-style-type: none;
+}
+aside ul li:hover {
+  list-style-type: disclosure-closed;
+}
+aside a:hover {
+  text-decoration: underline;
+  font-size: 1.6rem;
+}
+aside img:hover {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 0;
+
+}
+.profile-photo-size {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+
+aside section {
+  display: flex;
+  flex-direction: column;
+}
+aside h2 {
+  font-size: 2rem;
+}
+.center-it {
+  padding-top: 2rem;
+
+  align-items: center;
+}
+.aside-text-section {
+  padding-left: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border: .25rem solid black;
+    background-color: #01579b;
+    color: white;
 }
