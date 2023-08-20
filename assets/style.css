@@ -21,7 +21,8 @@ header {
   width: 100%;
   height: 8rem;
   background-color: lightseagreen;
-  color: blue;
+  color: black;
+  border: 0.25rem solid black;
 }
 
 header h1 {
@@ -35,176 +36,283 @@ header nav ul {
   flex: 1 1 0;
   justify-content: space-between;
   min-width: 30rem;
-  }
-
-  .no-bullet {
-    list-style-type: none;
-  }
-main {
-    display: flex;
-    background-color: lightgreen;
+  margin-right: 2rem;
+  margin-bottom: 0.25rem;
 }
 
+.no-bullet {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+header nav ul:hover {
+  header nav ul {
+    text-decoration: underline;
+  }
+}
+
+main {
+  display: flex;
+  background-color: lemonchiffon;
+  border: 0.25rem solid black;
+}
+
+.main-div-format {
+}
 div {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: 100%;
-    border: 0.5rem solid blue;  
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
 }
 section {
-    display: flex;
-    flex-direction: column;
-        
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 h2 {
-    font-size: 2rem;
+  font-size: 2rem;
+  text-decoration: underline;
+  font-weight: bolder;
 }
 article {
-    display: flex;
-    flex-direction: column;
-    border: 0.25rem solid green;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 1rem;
+
+  padding-bottom: 1rem;
+  border: 0.15rem solid black;
 }
 
-h3{
-    font-size: 1.5rem;
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+h4 {
+  font-size: 1rem;
+  text-decoration: underline;
+  margin-left: 0.7rem;
 }
 article div {
-    display: flex;
-    flex-direction: column;
-    
-    border: 0.5rem solid red;
+  display: flex;
+  flex-direction: column;
+}
+article div ul {
+  margin-bottom: 0.5rem;
 }
 
-
-h4 {
-    font-size: 1rem;
+img {
+  border: 0.25rem solid black;
 }
+
 main ul {
-    list-style-type: disc;
-    background-color: yellow;
-    margin-left: rem;
-    border: .25rem solid pink;
+  list-style-type: disc;
+
+  margin-left: rem;
 }
 
 main li {
-margin-left: 2rem;
+  margin-left: 2rem;
 }
 
-p{
-    background-color: purple;
-    border: 0.25rem solid pink;
+.underline {
+  text-decoration: underline;
+}
+.no-text-decoration {
+  text-decoration: none;
 }
 
 .font-change {
-    font-family: "Cherry Bomb One", cursive;
+  font-family: "Cherry Bomb One", cursive;
 }
 
 .line-height {
-    line-height: 3.5rem;
+  line-height: 3.5rem;
 }
 
 .font-weight {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .text-transform {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .text-decoration {
-    text-decoration:line-through;
+  text-decoration: line-through;
 }
 
 .font-style {
-    font-style: italic;
+  font-style: italic;
 }
 .text-align {
-    text-align:center;
+  text-align: center;
 }
 .colorex {
-    color: red;
+  color: red;
 }
 
 .margin {
-    margin-left: 4rem;
+  margin-left: 4rem;
 }
 .heigth-width {
-    height: 2rem;
-    width: 40rem;
+  height: 2rem;
+  width: 40rem;
 }
 .padding {
-    padding-left: 5rem;
+  padding-left: 5rem;
 }
 .border {
-    border: .25rem solid red;
+  border: 0.25rem solid red;
 }
 .box-shadow {
-    margin-top: 0.8rem;
-    box-shadow: .25rem .25rem 0.25rem 0.25rem gray;
-    
+  margin-top: 0.8rem;
+  box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem gray;
 }
 
 .border-radius {
-    margin-top: 0.8rem;
-    border: .25rem solid red;
-    border-radius: 5rem;
+  margin-top: 0.8rem;
+  border: 0.25rem solid red;
+  border-radius: 5rem;
 }
 
 .skew {
-    margin-left:4rem;
-    transform:skew(15deg)
+  margin-left: 4rem;
+  transform: skew(15deg);
 }
 .scale {
-    margin-left: 4rem;
-    transform: scale(1,2);
-    margin-bottom: 0.8rem;
-    
+  margin-left: 4rem;
+  transform: scale(1, 2);
+  margin-bottom: 0.8rem;
 }
 .rotate {
-    margin-top: 0.8rem;
-    margin-left: 4rem;
-    transform:rotate(1deg);
+  margin-top: 0.8rem;
+  margin-left: 4rem;
+  transform: rotate(1deg);
 }
 
 .html-screenshot-square {
-    height: 8rem;
-    width: 8rem;
+  height: 8rem;
+  width: 8rem;
 }
 
 .sample-pics {
-    height: 16rem;
-    width: 25rem;
+  height: 16rem;
+  width: 25rem;
 }
 
 .html-screenshot-wide {
-    height:6rem;
-    width: 10rem;
+  height: 6rem;
+  width: 10rem;
 }
 
 .syntax-screenshot-vertical {
-    height: 20rem;
-    width: 15rem;
+  height: 20rem;
+  width: 15rem;
 }
 
+.syntax-screenshot-square-large {
+  height: 20rem;
+  width: 25rem;
+}
 
+.html-screenshot-wider {
+  height: 6rem;
+  width: 20rem;
+}
 
+.force-other-magenta:hover + .foo {
+  color: magenta;
+}
 
+.hover-ex1:hover {
+  color: blue;
+  font-size: 2rem;
+}
 
+.grow {
+  transition: all 0.2s ease-in-out;
+}
 
+.grow:hover {
+  transform: scale(1.1);
+}
 
+.resources:hover #link-items {
+  color: magenta;
+}
+.active-ex:active {
+  font-size: 180%;
+  box-shadow: 0 0 10px #000 inset;
+}
+.focus-ex:focus {
+  outline: none;
+  border-color: #8ac4ff;
+}
+.before-after::before,
+.before-after::after {
+  content: "\2766";
+  color: #8ac4ff;
+  font-family: cursive;
+  padding: 1%;
+}
+.first-letter-pseudo::first-letter {
+  color: magenta;
+  font-size: 180%;
+}
 
+.first-line-pseudo::first-line {
+  color: magenta;
+  font-size: 120%;
+}
 
+.marker-ex::marker {
+  content: "✝ ";
+  color: red;
+}
 
+.selection-ex::selection {
+  background: green;
+  color: red;
+}
 
+.selection-ex::selection + .boo {
+  color: red;
+}
 
+.boo {
+  display: none;
+}
 
+@media screen and (width<700px) {
+  .boo {
+    display: block;
+  }
+}
 
-
+.relative-pos {
+  position: relative;
+}
+span[data-info]:hover::after {
+  content: attr(data-info);
+  font-size: 80%;
+  background-color: #13293d;
+  color: white;
+  position: absolute;
+  left: 15rem;
+  top: -3rem;
+}
 
 aside {
-    display: flex;
-    height: 100%;
-    background-color: purple;
-    width: 20%;
+  display: flex;
+  height: 100%;
+  background-color: purple;
+  width: 20%;
 }

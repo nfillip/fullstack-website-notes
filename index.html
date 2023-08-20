@@ -20,10 +20,10 @@
     
       <nav >
         <ul class = "no-bullet">
-          <li>CIL/GIT/GitHub</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JS</li>
+          <li><a href="#CIL/GIT/GitHub">CIL/GIT/GitHub</a></li>
+          <li><a href="#HTML">HTML</a></li>
+          <li><a href="#CSS">CSS</a></li>
+          <li><a href="#JS">JS</a></li>
           <li>About Me</li>
         </ul>
       </nav>
@@ -31,13 +31,191 @@
     </header>
 
     <main>
-      <div>
-        <section>
-    <h2>HTML</h2>
-        </section>
-      <section>
-        <h2>CSS</h2>
+        <div class = "main-div-format">
+            <section>
+            <h2>Markdown/CommandLine/GitHub</h2>
+            <article>
+                <h3>Markdown</h3>
+                <div>
+                    <u1>
+                        <li># is largest text</li>
+                        <li>## second largest text </li>
+                        <li>[link naee](URL) --> hyperlink</li>
+                        <li>![Alt text](photo file path) --> photo or screenshot...you can also just copy and paste into markdown readme file.</li>
+                    </u1>    
+                </div>
+            </article>
+            <article>
+                <h3>Command Line</h3>
+                
+                    <div>
+                        <ul>
+                            <li> <h4>Basic Commands</h4>
+                                <ul>
+                                    <li><span class = "underline">clear</span>: clears all commands</li>
+                                    <li><span class = "underline">ls</span>: list of files on your current folder</li>
+                                    <li><span class = "underline">cd</span> change directories</li>
+                                    <li><span class = "underline">cd ..</span> : goes back one spot in folder pathway</li>
+                                    <li><span class = "underline">mkdir</span>: creates a folder</li>
+                                    <li><span class = "underline">pwd</span>: enters a document (print working)</li>
+                                    <li><span class = "underline">touch</span>: creates a new file (touch script.js)</li>
+                                    <li><span class = "underline">start</span>: opens file(start first-day.txt)</li>
+                                </ul> 
+                            </li>
+                            <li> <h4>Git Commands</h4>
+                                <ul>
+                                    <li><span class = "underline">git clone:</span> adds clone to spot on directory</li>
+                                    <li><span class = "underline">code . :</span>takes to VSCode</li>
+                                    <li><span class = "underline">git status:</span> shows current status of files in repo</li>
+                                    <li><span class = "underline">git checkout main:</span> goes to main branch</li>
+                                    <li><span class = "underline">git checkout -b features/add-css:</span> adds a branch called feature/add-css</li>
+                                    <li><span class = "underline">git add . </span>: adds changes to staged position</li>
+                                    <li><span class = "underline">git commit -m"" :</span> commits those staged changes with a caption</li>
+                                    <li><span class = "underline">git push:</span> pushes those commited and staged changes to origin remote repo on GitHub</li>
+                                    <li><span class = "underline">git pull</span>: pulls data and changes from remote repo to local area</li>
+                                    <li><span class = "underline">git init</span>: creates a local repo from teh folder you've made</li>
+                                    <li><span class = "underline">git touch style.css:</span> creates a folder in your page</li>
+                                    <li> <span class="underline">Creating a Branch then Adding it To remote</span>
+                                        <ul>
+                                            <li>git checkout -b newbranch</li>
+                                            <li>git add -a OR git add .</li>
+                                            <li>git commit -m"new change made"</li>
+                                            <li>git pull origin main</li>
+                                            <li>git push origin newbranch</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </article>
+        
+            <article>
+                <h3>GITHUB</h3>
+                <div>
+                    <ul>
+                        <li> <span class = "underline">Git</span>: version control system manages and keeps track of each version of a project</li>
+                        <li><span class = "underline">GItHub</span>: cloud based service that allows you to keep track of projects in repositories and work together on them</li>
+                        <li><span class = "underline">Repository(repo)</span>: every project ongithub. </li>
+                        <li><span class = "underline">Branch</span>: workspace where you makes changes that doesn't affect live site</li>
+                        <li><span class = "underline">Markdown</span>: way content files are formatted (.md)</li>
+                        <li><span class = "underline">Commit</span>: whenever you add, edit or delete a files</li>
+                        <li><span class = "underline">Pull Request: </span>asking for changes on a branch to merge into another branch</li>
+                        <li><span class = "underline">Merge</span>: when a PR is approved and changes merge into main branch</li>
+                        <li><span class = "underline">Issue</span>: way to repot new tasks or content fixes</li>
+                        <li><span class = "underline">Federalist</span>: preview changes on a website</li>
+                        <li><span class = "underline">Local Environemnt</span>
+                            <ul>
+                                <li>IDE - integrated development environment</li>
+                                <li>VS Code: Virtual Studio Code - code editor</li>
+                            </ul>
+                        </li>
+                    </u1>
+                </div>
+            </article>
+            </section>
 
+            <section>
+    <h2>HTML</h2>
+    <article>
+        <h3>Basics</h3>
+        <div>
+            <u1>
+                <li>The head element contains information about the webpage</li>
+                <li>The body element represents the visible content shown to the user</li>
+                <li> element-> refers to entire element from opening tag to closing tag</li>
+                <li>tag-> refers to what appears in between angle brackets</li>
+                <li>
+                    <img src="./assets/html-skeleton.png" alt="html-skeleton" class = "syntax-screenshot-square-large">
+                </li>
+                <li> &lt;!DOCTYPE&gt; html declares we are using html</li>
+                <li> &lt;html lang = "en"&gt; using english</li>
+            </u1>
+        </div>
+    </article>
+    <article>
+        <h3>Head</h3>
+        
+            <div>
+                <ul>
+                    <li> &lt;head&gt; metadata that helps browser render page correctly</h3></li>
+                    <li>   &lt;title&gt;</li>
+                    <li>   &lt;style&gt;element defines CSS styles</li>
+                    <li>   &lt;base&gt; element defines URL</li>
+                    <li>   &lt;link&gt; connects an external resoure to HTML</li>
+                    <li>   &lt;meta&gt; defines meta data (char set, description, keywords, author, viewpoint)</li>
+                    <li>     charset -> char encoding
+                    <li>     http-equiv -> sets an HTTP header for content</li>
+                    <li>     viewport -> default view of webpage</li>
+                    <li>   &lt;script&gt; embeds client side scripts in HTML doc</li>
+                    
+                    </ul>  
+            </div>
+        
+    </article>
+
+    <article>
+        <h3>Body</h3>
+        
+            <div>
+                <ul>
+                    <li> &lt;body&gt; element that contains content that is shown to the user</li>
+                    <li>   &lt;h1&gt; ,h2,h3,etc heading increasing in size</li>
+                    <li>   &lt;p&gt; contain in a paragraph</li>
+                    <li>   u1 unordered list</li>
+                    <li>   o1 ordered list</li>
+                    <li>   li is list item</li>
+                    <li>   img is image. src, alt, width/height</li>
+                    <li>   &lt;br /&gt; carriage return</li>
+                    <li>   &lt;a&gt; hyperlink
+                        <ul>
+                            <li>[target= "_blank"] --> the hyperlink will open on new tab</li>
+                            <li>
+                                jump to spot on a page
+                            </li>
+                            <ul>
+                                <li>
+                                    <img src="./assets/scroll-to-spot1.png" alt="a ref">
+                                </li>
+                                <li>
+                                    <img src="./assets/scroll-to-spot2.png" alt="id example">
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                  </u1>
+                  </u1>
+            </div>
+        
+    </article>
+        
+
+    <article>
+        <h3>Text Editing</h3>
+        
+            <div>
+                <ul>
+                    <li> &lt;script&gt; embeds client side scripts in HTML doc</li>
+                    <li>   &lt;sup&gt; <sup>super script</sup> </li>
+                    <li>   &lt;sub&gt; <sub>sub script</sub> </li>
+                    <li>   &lt;strike&gt; <strike>striekthrough</strike> </li>
+                    <li>   &lt;tt&gt; <tt> monospace</tt> </li>
+                    <li>   &lt;small&gt;<small>small text</small></li>
+                    <li>   &lt;big&gt; <big> big text </big></li>
+                    <li>   &lt;u&gt; <u> underline</u></li>
+                    <li>   &lt;b&gt; <b> bold</b></li>
+                    <li>   &lt;mark&gt; <mark> highlighter</mark></li>
+                    <li>   &lt;br/&gt; carriage return</li>
+                </u1>
+            </div>
+        
+    </article>
+    
+            </section>
+
+            <section>
+        <h2>CSS</h2>
         <article>
           <h3>Editing
             </h3>
@@ -66,7 +244,7 @@
           </ul>
         
           <ul>
-            <h4>Object Editing Exmaples</h4>
+            <h4>Object Editing Examples</h4>
             <li class = "colorex"> changes the color of the text in this element </li>
             <li class = "borderex"> [border: 2rem solid black;] changes the border of the element thickness and color. </li>
             <li class = "visibility"> [visibility: hidden] -->causes the element to dissapear but doesn't take up space </li>
@@ -253,13 +431,145 @@
             
           </div>
           </article>
-      </section>
+
+          <article>
+            <h3>Selectors and Pseudos
+              </h3>
+            <div>
+            <ul>
+              <h4>Selectors</h4>
+              <li>
+                <img src="./assets/selector-ex.png" alt="example of selectors" class="syntax-screenshot-square-large">
+            </li>
+              <li>.lesson : class selectors</li>
+              <li>#lesson: unique selector</li>
+              <li>class = "lesson lesson2" --> callign to both of these selectors</li>
+              
+            </ul> 
+            <ul>
+                <h4>Pseudo Classes</h4>
+                
+                <li>visited vs link
+                    <ul>
+                        <li>
+                            <img src="./assets/visited-link.png" alt="visited-link-ex" class = "html-screenshot-wide">
+                        </li>
+                    </ul>
+                </li>
+                <li>hover:
+                    <ul>
+                        <li>hover of <span class = "hover-ex1">HERE</span> to make it change color and size
+                            <ul>
+                                <li><img src="./assets/hover4.JPG" alt="hover pseudo syntax ex1" class = "html-screenshot-wide"></li>
+                            </ul>
+                        </li>
+                        
+                        <li>hover over button to make it grow
+                            <ul>
+                                <li><button class = "grow">SEND</button></li>
+                                <li><img src="./assets/hover2.png" alt="hover pseudo syntax ex2" class = "html-screenshot-wide"></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li>Hover Over One Element to change a different One
+                            <ul>
+                                <li>using a + indicator
+                                    <ul>
+                                        <li>Hover over <span class = "force-other-magenta">HERE</span> to affect <span class = "foo">HERE</span></li>
+                                        <li><img src="./assets/hover3.JPG" alt="hvoer affects different element" class = "html-screenshot-wider"></li>
+                                    </ul>
+                                </li>
+                                <li>using a unique ID value through HTML
+                                    <ul>
+                                        <li> Hover over <span class = "resources">HERE</span> to affect <span id = "link-items">HERE</span>
+                                            <ul>
+                                                <li><img src="./assets/hover-with-id.png" alt="manipulate1" class="html-screenshot-wider"></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>active
+                    <ul>
+                        <li>click <span class = "active-ex">HERE</span> to see how it works</li>
+                        <li><img src="./assets/active1.png" alt="active-css-syntax-ex" class = "html-screenshot-wider"></li>
+                    </ul>
+                </li>
+                <li>focus:
+                    <ul>
+                        <li>button is selected or tabbed over (click it then click out of it)
+                            <ul>
+                                <li><button class = "focus-ex">SEND</button></li>
+                                <li><img src="./assets/focus1.png" alt="focus css syntax example" class = "html-screenshot-wide"></li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </li>
+            </ul> 
+            <ul>
+                <h4>Pseudo Elements</h4>
+                <li>Before and After
+                    <ul>
+                        <li class = "before-after">I can add stuff before and after this list item</li>
+                        <li><img src="./assets/before-after1.png" alt="before-after pseudo element example" class = "html-screenshot-wide"></li>
+                        <li><img src="./assets/before-after2.png" alt="before-after psedo element example 2" class = "html-screenshot-wide"></li>
+                    </ul>
+                </li>
+                <li>p::first-letter
+                    <ul>
+                        <li class = "first-letter-pseudo">can edit first letter of each element</li>
+                    </ul>
+                </li>
+                <li>::first-line
+                    <ul>
+                        <li class = "first-line-pseudo"> can edit first line of an element. See when I finally  <br/> wrap around to the next line it goes back to normal</li>
+                    </ul>
+                </li>
+                <li>::marker
+                    <ul>
+                        <li class = "marker-ex">see the bullet color and style!</li>
+                        <li><img src="./assets/marker-ex.JPG" alt="marker cross bullets" class = "html-screenshot-wide"></li>
+                    </ul>
+                </li>
+                <li>::selection
+                    <ul>
+                        <li class = "selection-ex">Highlight this sentence and see</li>
+                        
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <h4>media screens</h4>
+                <li>max width: when the desktop is smaller than 576px then apply the following</li>
+                <li>See what happens when the screen width is less than 1000px!</li>
+                <li><img src="https://img.freepik.com/premium-vector/halloween-ghost-cartoon-character-doodle-cute-ghost-scares-says-boo-hand-drawn-outline_642114-170.jpg?w=2000" alt="ghost saying BOO" class = "html-screenshot-square boo"></li>
+                <li><img src="./assets/media-screen-syntax.JPG" alt="media screen syntax" class = "html-screenshot-wider"></li>
+                
+            </ul>
+            <ul>
+                <h4>Data Attributes</h4>
+                <li class = "relative-pos">See what happens when you hover over <span data-info="I added an info tab by assigning HERE as a span. Inside the span I made a data tag which I then called with hover and after to build a text. I made the LI relative position instead of teh HERE because then I have more space to write." >HERE</span>
+                <ul>
+                    <li><img src="./assets/data-attributes3.JPG" alt="data-attr-css-syntax" class = "html-screenshot-wide"></li>
+                </ul>    
+                </li>
+                
+            </ul>
+            </section>
         </div>
-      <aside>
+        <aside>
         <h2>My Profile</h2>
         </aside>
     </main>
     
-    <footer>Footer</footer>
+    <footer>
+        Footer
+    </footer>
+
   </body>
 </html>
